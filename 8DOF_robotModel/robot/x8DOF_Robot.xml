@@ -1,0 +1,2206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            version="2.0">
+   <Created by="Martin Leray" from="Onshape" on="07/15/24||15:50:19"
+            using="Simscape Multibody Exporter"/>
+   <ModelUnits length="meter" mass="kilogram"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="8DOF_Robot" uid="cabea5b0cccb6fe36871de1d"
+                 version="w-41795f51f0a1bba27b7c4d7c">
+      <InstanceTree>
+         <Instance entityUid="JFD*:*65a78b1d1308a9535d7a8f0c" name="Redondante_Housing &lt;2&gt;"
+                   uid="M/Zxn4gy1bXWnnh/5">
+            <Transform>
+               <Rotation>0.652883748 -0.482630944 0.583789503 -0.651108379 -0.751409721 0.106964060 0.387040942 -0.449945333 -0.804828246 </Rotation>
+               <Translation>-0.102096445 -0.003777634 -0.566265101 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*65a78b1d1308a9535d7a8f0c" name="Redondante_Housing &lt;1&gt;"
+                   uid="M/z4QDcpwg92cmgnv">
+            <Transform>
+               <Rotation>-0.683306845 0.643977372 -0.344071069 0.681772883 0.731410651 0.014973158 0.261299619 -0.224347064 -0.938824214 </Rotation>
+               <Translation>0.088775330 -0.136796045 -0.561746529 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*b0fe54c65e2c730cd733d835" name="Joint_A &lt;2&gt;"
+                   uid="M0aUCYwKd5XP+Z+B2">
+            <Transform>
+               <Rotation>0.061026379 -0.883676952 0.464102171 -0.984034020 -0.131148728 -0.120320653 0.167190997 -0.449349591 -0.877571715 </Rotation>
+               <Translation>-0.085288064 -0.120782995 -0.596826037 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*b0fe54c65e2c730cd733d835" name="Joint_B &lt;2&gt;"
+                   uid="M2C0eyGjAIQVyKu84">
+            <Transform>
+               <Rotation>0.755293144 0.652539691 -0.061026379 0.155033027 -0.087417441 0.984034020 0.636786485 -0.752695253 -0.167190997 </Rotation>
+               <Translation>-0.085288064 -0.120782995 -0.596826037 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;1&gt;" uid="M3YJywbOrxM2vY57N">
+            <Transform>
+               <Rotation>-0.999753875 0.008541288 -0.020475233 0.000000000 0.922917760 0.384997154 0.022185328 0.384902396 -0.922690607 </Rotation>
+               <Translation>-0.009542585 -0.307448830 -0.023613780 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>-0.999753875 -0.020475233 -0.008541288 0.000000000 0.384997154 -0.922917760 0.022185328 -0.922690607 -0.384902396 </Rotation>
+                  <Translation>-0.037406775 -0.369315206 -0.078673949 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>0.999753875 0.022185328 -0.000000000 0.020475233 -0.922690607 0.384997154 0.008541288 -0.384902396 -0.922917760 </Rotation>
+                     <Translation>-0.061670079 0.011950023 -0.308192267 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>-0.999753875 0.022185328 0.000000000 -0.020475233 -0.922690607 -0.384997154 -0.008541288 -0.384902396 0.922917760 </Rotation>
+                     <Translation>-0.064472641 0.129182659 -0.261184578 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>-0.999753875 -0.000000000 0.022185328 -0.020475233 0.384997154 -0.922690607 -0.008541288 -0.922917760 -0.384902396 </Rotation>
+                     <Translation>-0.062609073 0.051676648 -0.293516379 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;2&gt;" uid="M3uV6/vnWiNI8xyR3">
+            <Transform>
+               <Rotation>0.000000000 0.885781675 0.464102171 0.990731396 0.063041580 -0.120320653 -0.135835563 0.459800592 -0.877571715 </Rotation>
+               <Translation>-0.303342965 -0.067143930 -0.009515117 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>-0.000000000 0.464102171 -0.885781675 0.990731396 -0.120320653 -0.063041580 -0.135835563 -0.877571715 -0.459800592 </Rotation>
+                  <Translation>-0.360113315 -0.049021068 -0.073422653 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>0.000000000 -0.135835563 0.990731396 -0.464102171 -0.877571715 -0.120320653 0.885781675 -0.459800592 -0.063041580 </Rotation>
+                     <Translation>-0.044684029 0.094636303 -0.387034656 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.135835563 -0.990731396 0.464102171 -0.877571715 0.120320653 -0.885781675 -0.459800592 0.063041580 </Rotation>
+                     <Translation>-0.025790822 0.205284989 -0.329060669 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>-0.000000000 0.990731396 -0.135835563 0.464102171 -0.120320653 -0.877571715 -0.885781675 -0.063041580 -0.459800592 </Rotation>
+                     <Translation>-0.037201009 0.131568965 -0.367683919 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFH*:*b0fe54c65e2c730cd733d835" name="Joint_B &lt;3&gt;"
+                   uid="M4SeKyAX6zjtCWDBZ">
+            <Transform>
+               <Rotation>-0.932782174 0.216438872 0.288221496 0.357401045 0.451769482 0.817415945 0.046710909 0.865481686 -0.498757999 </Rotation>
+               <Translation>0.046264533 0.020402129 -0.613420548 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*b0fe54c65e2c730cd733d835" name="Joint_A &lt;4&gt;"
+                   uid="M4Va78LvDkJORCA9V">
+            <Transform>
+               <Rotation>0.033437877 -0.887558839 -0.459479288 -0.997756487 -0.002965409 -0.066881979 0.057999148 0.460684832 -0.885666746 </Rotation>
+               <Translation>0.082633543 -0.013560110 -0.614054808 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;5&gt;" uid="M5lkv2i2ywupBrVaH">
+            <Transform>
+               <Rotation>-0.996336958 -0.036219974 0.077464693 0.000000000 0.905870171 0.423555466 -0.085514123 0.422003965 -0.902551931 </Rotation>
+               <Translation>0.066541860 -0.305364753 -0.015961074 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>-0.996336958 0.077464693 0.036219974 0.000000000 0.423555466 -0.905870171 -0.085514123 -0.902551931 -0.422003965 </Rotation>
+                  <Translation>0.044982509 -0.364829910 -0.076248496 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>0.996336958 -0.085514123 -0.000000000 -0.077464693 -0.902551931 0.423555466 -0.036219974 -0.422003965 -0.905870171 </Rotation>
+                     <Translation>0.009402779 0.025413510 -0.302237035 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>-0.996336958 -0.085514123 0.000000000 0.077464693 -0.902551931 -0.423555466 0.036219974 -0.422003965 0.905870171 </Rotation>
+                     <Translation>0.020205351 0.140169605 -0.250512657 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>-0.996336958 -0.000000000 -0.085514123 0.077464693 0.423555466 -0.902551931 0.036219974 -0.905870171 -0.422003965 </Rotation>
+                     <Translation>0.013022165 0.064355242 -0.285960990 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="17517293b29a4fa8082e9099" name="Stem_ASBLY_Big &lt;1&gt;"
+                   uid="M9CjMFR5ZsTWoqbKx">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*145ce1427bbac92f66e85e98" name="NR_Joint_Big &lt;1&gt;"
+                      uid="MKCzpbOibs8kLd/VG">
+               <Transform>
+                  <Rotation>-0.683306845 -0.551435291 0.478550808 0.681772883 -0.716456084 0.147906780 0.261299619 0.427328680 0.865512974 </Rotation>
+                  <Translation>0.106197006 -0.130804908 -0.531820131 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="MLcf/Po2HT9hwk865">
+               <Transform>
+                  <Rotation>-0.551435291 0.683306845 0.478550808 -0.716456084 -0.681772883 0.147906780 0.427328680 -0.261299619 0.865512974 </Rotation>
+                  <Translation>0.383756475 -0.045018975 -0.029822606 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;8&gt;" uid="M9lC7zaOP4yw+Pn6P">
+            <Transform>
+               <Rotation>0.000000000 0.884295329 0.466928014 0.997965138 0.029772228 -0.056384371 -0.063761924 0.465977881 -0.882495910 </Rotation>
+               <Translation>-0.303208837 0.005776105 -0.011391872 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>0.000000000 0.466928014 -0.884295329 0.997965138 -0.056384371 -0.029772228 -0.063761924 -0.882495910 -0.465977881 </Rotation>
+                  <Translation>-0.359784599 0.028466037 -0.074000450 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>0.000000000 -0.063761924 0.997965138 -0.466928014 -0.882495910 -0.056384371 0.884295329 -0.465977880 -0.029772228 </Rotation>
+                     <Translation>-0.114998534 0.096939155 -0.385795090 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.063761924 -0.997965138 0.466928014 -0.882495910 0.056384371 -0.884295329 -0.465977880 0.029772228 </Rotation>
+                     <Translation>-0.105197370 0.208321778 -0.326982536 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>-0.000000000 0.997965138 -0.063761924 0.466928014 -0.056384371 -0.882495910 -0.884295329 -0.029772228 -0.465977880 </Rotation>
+                     <Translation>-0.110553371 0.134192122 -0.366124677 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFD*:*b0fe54c65e2c730cd733d835" name="Joint_A &lt;5&gt;"
+                   uid="MACTrmYzjnLns40Ae">
+            <Transform>
+               <Rotation>0.884579102 -0.314856969 -0.344071069 -0.330119284 -0.943820461 0.014973158 -0.329455718 0.100339552 -0.938824214 </Rotation>
+               <Translation>0.072573883 -0.136090996 -0.605953414 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;8&gt;"
+                   uid="MAUKdE+d/RE7jjSIs">
+            <Transform>
+               <Rotation>0.000000000 -0.000000000 1.000000000 0.997965138 0.063761924 -0.000000000 -0.063761924 0.997965138 -0.000000000 </Rotation>
+               <Translation>-0.343100000 0.035000000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*b0fe54c65e2c730cd733d835" name="Joint_B &lt;5&gt;"
+                   uid="MBbec05n8cuzl/u5z">
+            <Transform>
+               <Rotation>0.413695567 -0.215350387 -0.884579102 0.881549115 0.337479504 0.330119284 0.227436001 -0.916368810 0.329455718 </Rotation>
+               <Translation>0.072573883 -0.136090996 -0.605953414 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*b0fe54c65e2c730cd733d835" name="Joint_B &lt;4&gt;"
+                   uid="MDYxYY1DopsRMgrB1">
+            <Transform>
+               <Rotation>0.689313062 -0.723691516 -0.033437877 -0.018997277 -0.064195765 0.997756487 -0.724214475 -0.687131351 -0.057999148 </Rotation>
+               <Translation>0.082633543 -0.013560110 -0.614054808 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;4&gt;"
+                   uid="MF35xeElqDPzRs2Rk">
+            <Transform>
+               <Rotation>0.000000000 -0.000000000 -1.000000000 -0.997160807 0.075301560 0.000000000 0.075301560 0.997160807 -0.000000000 </Rotation>
+               <Translation>0.343100000 0.035000000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*b0fe54c65e2c730cd733d835" name="Joint_C &lt;5&gt;"
+                   uid="MGpt5P00r7UJDt4Zy">
+            <Transform>
+               <Rotation>-0.413695567 0.714137596 0.564679973 -0.881549115 -0.159270613 -0.444414254 -0.227436001 -0.681645337 0.695436913 </Rotation>
+               <Translation>0.056480504 -0.123425190 -0.625773366 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*b0fe54c65e2c730cd733d835" name="Joint_C &lt;2&gt;"
+                   uid="MKMHnD9azZ235KGGB">
+            <Transform>
+               <Rotation>-0.755293144 0.283356612 -0.590966410 -0.155033027 -0.953360679 -0.258975243 -0.636786485 -0.103982914 0.763996418 </Rotation>
+               <Translation>-0.068445521 -0.113402200 -0.618599935 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;6&gt;" uid="MLvZEomIRITxvvQ2l">
+            <Transform>
+               <Rotation>0.000000000 -0.878059864 -0.478550808 -0.985710667 0.080610573 -0.147906780 0.168447262 0.471712636 -0.865512974 </Rotation>
+               <Translation>0.302666750 -0.015568819 -0.015613240 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>-0.000000000 -0.478550808 0.878059864 -0.985710667 -0.147906780 -0.080610573 0.168447262 -0.865512974 -0.471712636 </Rotation>
+                  <Translation>0.358432577 -0.052229899 -0.072019104 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>0.000000000 0.168447262 -0.985710667 0.478550808 -0.865512974 -0.147906780 -0.878059864 -0.471712636 -0.080610573 </Rotation>
+                     <Translation>0.044420766 0.076746931 -0.336047095 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>-0.000000000 0.168447262 0.985710667 -0.478550808 -0.865512974 0.147906780 0.878059864 -0.471712636 0.080610573 </Rotation>
+                     <Translation>0.021416672 0.185824021 -0.276599065 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.985710667 0.168447262 -0.478550808 -0.147906780 -0.865512974 0.878059864 -0.080610573 -0.471712636 </Rotation>
+                     <Translation>0.035566242 0.113120931 -0.316222926 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFD*:*b0fe54c65e2c730cd733d835" name="Joint_A &lt;6&gt;"
+                   uid="MM7CjXgq5YkkJYAf7">
+            <Transform>
+               <Rotation>-0.013214462 -0.811797508 0.583789503 -0.989900600 0.093034899 0.106964060 -0.141145955 -0.576480107 -0.804828246 </Rotation>
+               <Translation>-0.074607256 0.001259036 -0.604162451 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="dfd6a278815e37caaa2ee01a" name="Stem_ASBLY_Little &lt;1&gt;"
+                   uid="MMPPmSEvBSkjjGnw5">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="M/aiVa94jfSZAiHxR">
+               <Transform>
+                  <Rotation>0.726010315 -0.683306845 -0.077464693 0.596478418 0.681772883 -0.423555466 0.342231676 0.261299619 0.902551931 </Rotation>
+                  <Translation>0.039026864 -0.399325568 -0.006858452 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFD*:*b0123572551d94188a5fa470" name="NR_Joint_Little &lt;1&gt;"
+                      uid="M68DzNdYO8ojtWunb">
+               <Transform>
+                  <Rotation>0.683306845 -0.726010315 0.077464693 -0.681772883 -0.596478418 0.423555466 -0.261299619 -0.342231676 -0.902551931 </Rotation>
+                  <Translation>0.083956386 -0.153663397 -0.530338573 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFD*:*b0fe54c65e2c730cd733d835" name="Joint_A &lt;3&gt;"
+                   uid="MO5dPIp9v/1bUnWiw">
+            <Transform>
+               <Rotation>-0.288221496 -0.957446802 0.014966324 -0.817415945 0.237866862 -0.524643239 0.498757999 -0.163447171 -0.851190625 </Rotation>
+               <Translation>0.046264533 0.020402129 -0.613420548 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;4&gt;" uid="MO88gZIP8D5K4WTtT">
+            <Transform>
+               <Rotation>0.000000000 -0.888188484 -0.459479288 -0.997160807 0.034599507 -0.066881979 0.075301560 0.458174738 -0.885666746 </Rotation>
+               <Translation>0.303564333 0.058315224 -0.015986704 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>-0.000000000 -0.459479288 0.888188484 -0.997160807 -0.066881979 -0.034599507 0.075301560 -0.885666746 -0.458174738 </Rotation>
+                  <Translation>0.360651072 0.027195025 -0.074365821 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>0.000000000 0.075301560 -0.997160807 0.459479288 -0.885666746 -0.066881979 -0.888188484 -0.458174738 -0.034599507 </Rotation>
+                     <Translation>0.114843097 0.070392674 -0.339647830 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>-0.000000000 0.075301560 0.997160807 -0.459479288 -0.885666746 0.066881979 0.888188484 -0.458174738 0.034599507 </Rotation>
+                     <Translation>0.103585596 0.182157483 -0.281829455 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.997160807 0.075301560 -0.459479288 -0.066881979 -0.885666746 0.888188484 -0.034599507 -0.458174738 </Rotation>
+                     <Translation>0.109910927 0.107761476 -0.320316133 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="dfd6a278815e37caaa2ee01a" name="Stem_ASBLY_Little &lt;2&gt;"
+                   uid="MOQREIQgi7WrmnX9D">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="M/aiVa94jfSZAiHxR">
+               <Transform>
+                  <Rotation>-0.752547639 0.652883748 0.086109600 -0.499489682 -0.651108379 0.571461229 0.429164431 0.387040942 0.816098769 </Rotation>
+                  <Translation>-0.045789545 0.351063148 -0.064308006 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFD*:*b0123572551d94188a5fa470" name="NR_Joint_Little &lt;1&gt;"
+                      uid="M68DzNdYO8ojtWunb">
+               <Transform>
+                  <Rotation>-0.652883748 0.752547639 -0.086109600 0.651108379 0.499489682 -0.571461229 -0.387040942 -0.429164431 -0.816098769 </Rotation>
+                  <Translation>-0.095733113 0.019615635 -0.537645291 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;5&gt;"
+                   uid="MPbJzvy0FLRFzhZ42">
+            <Transform>
+               <Rotation>0.996336958 0.085514123 0.000000000 -0.000000000 -0.000000000 1.000000000 0.085514123 -0.996336958 -0.000000000 </Rotation>
+               <Translation>0.035000000 -0.343100000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="51dab342e75b4e4c77402211" name="Stem_ASBLY_NR &lt;4&gt;"
+                   uid="MQ+naCiXbBxp3teHu">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*9417bee971daeeb856c192b8" name="Swivel &lt;1&gt;"
+                      uid="Mh9B/Kmdg98CCGYsF">
+               <Transform>
+                  <Rotation>-0.888188484 0.000000000 0.459479288 0.034599507 -0.997160807 0.066881979 0.458174738 0.075301560 0.885666746 </Rotation>
+                  <Translation>0.107945108 -0.009875749 -0.565265641 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="MxEFiWvqxXRi8zmII">
+               <Transform>
+                  <Rotation>-0.888188484 0.000000000 0.459479288 0.034599507 -0.997160807 0.066881979 0.458174738 0.075301560 0.885666746 </Rotation>
+                  <Translation>0.374443095 0.028915799 -0.051578929 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;3&gt;"
+                   uid="MSantyFxnSSpUG4iz">
+            <Transform>
+               <Rotation>0.999845458 -0.017580094 -0.000000000 -0.000000000 -0.000000000 -1.000000000 0.017580094 0.999845458 -0.000000000 </Rotation>
+               <Translation>0.035000000 0.343100000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;7&gt;" uid="MWBj08wxGdpzsDgv2">
+            <Transform>
+               <Rotation>0.994479483 0.059964118 -0.086109600 -0.000000000 -0.820629066 -0.571461229 -0.104931209 0.568306468 -0.816098769 </Rotation>
+               <Translation>-0.065393388 0.298929099 0.003738335 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>0.994479483 -0.086109600 -0.059964118 -0.000000000 -0.571461229 0.820629066 -0.104931209 -0.816098769 -0.568306468 </Rotation>
+                  <Translation>-0.045986317 0.347624773 -0.066172900 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>-0.994479483 -0.104931209 -0.000000000 0.086109600 -0.816098769 -0.571461229 0.059964118 -0.568306468 0.820629066 </Rotation>
+                     <Translation>0.062386160 0.161784838 -0.408771013 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>0.994479483 -0.104931209 0.000000000 -0.086109600 -0.816098769 0.571461229 -0.059964118 -0.568306468 -0.820629066 </Rotation>
+                     <Translation>0.075641595 0.263878458 -0.335543598 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>0.994479483 -0.000000000 -0.104931209 -0.086109600 -0.571461229 -0.816098769 -0.059964118 0.820629066 -0.568306468 </Rotation>
+                     <Translation>0.066827373 0.195326161 -0.383281341 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFL*:*b0fe54c65e2c730cd733d835" name="Joint_C &lt;4&gt;"
+                   uid="MXFzFQNZ5p2V6l0QX">
+            <Transform>
+               <Rotation>-0.689313062 0.230565312 0.686794830 0.018997277 -0.941925962 0.335282845 0.724214475 0.244162077 0.644901756 </Rotation>
+               <Translation>0.063059890 -0.023115671 -0.632434508 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*b0fe54c65e2c730cd733d835" name="Joint_A &lt;1&gt;"
+                   uid="Ma8HwqrbR5w81Ipcw">
+            <Transform>
+               <Rotation>-0.054604333 -0.998298118 -0.020475233 -0.921937246 0.042531245 0.384997154 -0.383471097 0.039899393 -0.922690607 </Rotation>
+               <Translation>-0.048919054 -0.154745234 -0.597460297 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;1&gt;"
+                   uid="MbCxPg3vPIZ2d0Nst">
+            <Transform>
+               <Rotation>0.999753875 -0.022185328 0.000000000 -0.000000000 0.000000000 1.000000000 -0.022185328 -0.999753875 -0.000000000 </Rotation>
+               <Translation>-0.035000000 -0.343100000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;7&gt;"
+                   uid="MbJQEMcl1S9HFV/QQ">
+            <Transform>
+               <Rotation>0.994479483 0.104931209 -0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.104931209 0.994479483 0.000000000 </Rotation>
+               <Translation>-0.035000000 0.343100000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="51dab342e75b4e4c77402211" name="Stem_ASBLY_NR &lt;3&gt;"
+                   uid="MbRIjUn+HWpGot8WX">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*9417bee971daeeb856c192b8" name="Swivel &lt;1&gt;"
+                      uid="Mh9B/Kmdg98CCGYsF">
+               <Transform>
+                  <Rotation>0.999845458 0.009223277 -0.014966324 -0.000000000 0.851322190 0.524643239 0.017580094 -0.524562160 0.851190625 </Rotation>
+                  <Translation>0.045440075 0.049303414 -0.566530585 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="MxEFiWvqxXRi8zmII">
+               <Transform>
+                  <Rotation>0.999845458 0.009223277 -0.014966324 -0.000000000 0.851322190 0.524643239 0.017580094 -0.524562160 0.851190625 </Rotation>
+                  <Translation>0.036759608 0.353596492 -0.072840022 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;2&gt;"
+                   uid="MiOZi5oVrkUZDljmj">
+            <Transform>
+               <Rotation>0.000000000 0.000000000 1.000000000 0.990731396 0.135835563 -0.000000000 -0.135835563 0.990731396 0.000000000 </Rotation>
+               <Translation>-0.343100000 -0.035000000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFH*:*b0fe54c65e2c730cd733d835" name="Joint_B &lt;6&gt;"
+                   uid="Mirxd96zFiXEYyvhu">
+            <Transform>
+               <Rotation>0.798508362 0.601838661 0.013214462 -0.095409043 0.104851881 0.989900600 0.594374891 -0.791704685 0.141145955 </Rotation>
+               <Translation>-0.074607256 0.001259036 -0.604162451 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="51dab342e75b4e4c77402211" name="Stem_ASBLY_NR &lt;1&gt;"
+                   uid="MjEuJfox82Cz0pB29">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*9417bee971daeeb856c192b8" name="Swivel &lt;1&gt;"
+                      uid="Mh9B/Kmdg98CCGYsF">
+               <Transform>
+                  <Rotation>-0.999753875 -0.008541288 0.020475233 0.000000000 -0.922917760 -0.384997154 0.022185328 -0.384902396 0.922690607 </Rotation>
+                  <Translation>-0.047791125 -0.175953764 -0.546631579 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="MxEFiWvqxXRi8zmII">
+               <Transform>
+                  <Rotation>-0.999753875 -0.008541288 0.020475233 0.000000000 -0.922917760 -0.384997154 0.022185328 -0.384902396 0.922690607 </Rotation>
+                  <Translation>-0.035915489 -0.399252113 -0.011471026 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFH*:*b0fe54c65e2c730cd733d835" name="Joint_B &lt;1&gt;"
+                   uid="Mn0PgAWlvVimyvEk9">
+            <Transform>
+               <Rotation>0.978998436 0.196419015 0.054604333 -0.124978166 0.366622658 0.921937246 0.161066820 -0.909399471 0.383471097 </Rotation>
+               <Translation>-0.048919054 -0.154745234 -0.597460297 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*b0fe54c65e2c730cd733d835" name="Joint_C &lt;6&gt;"
+                   uid="Mn6wWBFNF0Q+rJoov">
+            <Transform>
+               <Rotation>-0.798508362 -0.377574653 -0.468851552 0.095409043 -0.848378372 0.520721856 -0.594374891 0.371068078 0.713461261 </Rotation>
+               <Translation>-0.061244987 -0.013581537 -0.624496097 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFL*:*b0fe54c65e2c730cd733d835" name="Joint_C &lt;1&gt;"
+                   uid="Mok3Yc8BTtqUmwkJs">
+            <Transform>
+               <Rotation>-0.978998436 0.005306426 -0.203798686 0.124978166 -0.774166268 -0.620521593 -0.161066820 -0.632960055 0.757244378 </Rotation>
+               <Translation>-0.043110792 -0.137060368 -0.619041762 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*213cf1ff0de6e340c17c69bc" name="Effector &lt;1&gt;"
+                   uid="MpMGtURGkNSIe49mK">
+            <Transform>
+               <Rotation>-0.679201554 0.067760926 -0.730817150 -0.728933961 0.053957623 0.682454288 0.085676891 0.996241453 0.012745139 </Rotation>
+               <Translation>-0.005084693 -0.070163573 -0.660683320 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JHD*:*ac29ca7227af0ee90520abdf" grounded="true" name="Base &lt;1&gt;"
+                   uid="Mqld6RJJQY8KkKbjF">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="51dab342e75b4e4c77402211" name="Stem_ASBLY_NR &lt;2&gt;"
+                   uid="MseIFruZeMoxRsDbJ">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*9417bee971daeeb856c192b8" name="Swivel &lt;1&gt;"
+                      uid="Mh9B/Kmdg98CCGYsF">
+               <Transform>
+                  <Rotation>0.885781675 0.000000000 -0.464102171 0.063041580 0.990731396 0.120320653 0.459800592 -0.135835563 0.877571715 </Rotation>
+                  <Translation>-0.110854292 -0.114154831 -0.548482806 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="MxEFiWvqxXRi8zmII">
+               <Transform>
+                  <Rotation>0.885781675 0.000000000 -0.464102171 0.063041580 0.990731396 0.120320653 0.459800592 -0.135835563 0.877571715 </Rotation>
+                  <Translation>-0.380033551 -0.044368852 -0.039491211 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="17517293b29a4fa8082e9099" name="Stem_ASBLY_Big &lt;2&gt;"
+                   uid="Mt/18Lo1PylpEj+8l">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*145ce1427bbac92f66e85e98" name="NR_Joint_Big &lt;1&gt;"
+                      uid="MKCzpbOibs8kLd/VG">
+               <Transform>
+                  <Rotation>0.652883748 0.596423542 -0.466928014 -0.651108379 0.756887496 0.056384371 0.387040942 0.267208303 0.882495910 </Rotation>
+                  <Translation>-0.117854618 -0.000987439 -0.534989406 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JFH*:*5231ec5207d743843fcb52b2" name="Stem &lt;1&gt;"
+                      uid="MLcf/Po2HT9hwk865">
+               <Transform>
+                  <Rotation>0.596423542 -0.652883748 -0.466928014 0.756887496 0.651108379 0.056384371 0.267208303 -0.387040942 0.882495910 </Rotation>
+                  <Translation>-0.388672866 0.031715496 -0.023141778 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="20c19bc2414859b8e1ac8e1c" name="Slider &lt;3&gt;" uid="MukC1GFkddgwdmofe">
+            <Transform>
+               <Rotation>0.999845458 -0.009223277 0.014966324 -0.000000000 -0.851322190 -0.524643239 0.017580094 0.524562160 -0.851190625 </Rotation>
+               <Translation>0.008947578 0.300674821 -0.006177850 </Translation>
+            </Transform>
+            <Instance entityUid="f2306f419b91c97e0ba28ef7" name="Extension_Bloc &lt;1&gt;"
+                      uid="MANel8YSwSHPlT9ia">
+               <Transform>
+                  <Rotation>0.999845458 0.014966324 0.009223277 0.000000000 -0.524643239 0.851322190 0.017580094 -0.851190625 -0.524562160 </Rotation>
+                  <Translation>0.036715961 0.353070875 -0.070357708 </Translation>
+               </Transform>
+               <Instance entityUid="JFL*:*5231ec5207d743843fcb52b2" name="Stator_Fixation_SSCP &lt;1&gt;"
+                         uid="M4pKZFKUAhYrUcqxq">
+                  <Transform>
+                     <Rotation>-0.999845458 0.017580094 -0.000000000 -0.014966324 -0.851190625 -0.524643239 -0.009223277 -0.524562160 0.851322190 </Rotation>
+                     <Translation>-0.008357273 0.143859955 -0.420374438 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*5231ec5207d743843fcb52b2" name="Base_Joint_Fixation &lt;1&gt;"
+                         uid="MhGGjslxj1E6oeXB3">
+                  <Transform>
+                     <Rotation>0.999845458 0.017580094 0.000000000 0.014966324 -0.851190625 0.524643239 0.009223277 -0.524562160 -0.851322190 </Rotation>
+                     <Translation>-0.010578079 0.250468485 -0.352619309 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*5231ec5207d743843fcb52b2" grounded="true"
+                         name="Allu_Extru_Square &lt;1&gt;"
+                         uid="MjbSa5sMUsFS8sf33">
+                  <Transform>
+                     <Rotation>0.999845458 -0.000000000 0.017580094 0.014966324 -0.524643239 -0.851190625 0.009223277 0.851322190 -0.524562160 </Rotation>
+                     <Translation>-0.009101351 0.178968472 -0.396682530 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="JFD*:*5231ec5207d743843fcb52b2" grounded="true" name="Slider &lt;1&gt;"
+                      uid="MpDkDYXe/QJNefJOO">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.026635805 -0.080278364 0.046055648 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="JFL*:*b0fe54c65e2c730cd733d835" name="Joint_C &lt;3&gt;"
+                   uid="Mv3zqPT3heOmx08wb">
+            <Transform>
+               <Rotation>0.932782174 0.200352222 0.299627107 -0.357401045 0.621846898 0.696829196 -0.046710909 -0.757076893 0.651653795 </Rotation>
+               <Translation>0.037725160 0.000542497 -0.631992681 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JFD*:*01d58e79bf94692cc2bcd491" name="BaseJoint &lt;6&gt;"
+                   uid="Mx9n8erMyurmnKD5O">
+            <Transform>
+               <Rotation>-0.000000000 0.000000000 -1.000000000 0.985710667 -0.168447262 0.000000000 -0.168447262 -0.985710667 -0.000000000 </Rotation>
+               <Translation>0.343100000 -0.035000000 0.028657481 </Translation>
+            </Transform>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Revolute name="Base2JointBase">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.035000000 -0.343100000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MbCxPg3vPIZ2d0Nst</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MbCxPg3vPIZ2d0Nst</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.019300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M3YJywbOrxM2vY57N</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M3YJywbOrxM2vY57N</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MjEuJfox82Cz0pB29</Uid>
+                  <Uid>MxEFiWvqxXRi8zmII</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Joint_A_1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MjEuJfox82Cz0pB29</Uid>
+                  <Uid>Mh9B/Kmdg98CCGYsF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.035000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Ma8HwqrbR5w81Ipcw</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.020087500 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_A2Joint_B">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Ma8HwqrbR5w81Ipcw</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.004210000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mn0PgAWlvVimyvEk9</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.004210000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_B2Joint_C">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mn0PgAWlvVimyvEk9</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.016000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mok3Yc8BTtqUmwkJs</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.016000000 0.000000000 0.028500000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_C2Effector">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mok3Yc8BTtqUmwkJs</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.013000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MpMGtURGkNSIe49mK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.755092743 0.000000000 0.655617991 -0.613953626 -0.350800435 0.707106781 0.229991076 -0.936450242 -0.264886862 </Rotation>
+                  <Translation>0.069635416 0.026106382 -0.013889623 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Base2JointBase_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.343100000 -0.035000000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MiOZi5oVrkUZDljmj</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MiOZi5oVrkUZDljmj</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.019300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M3uV6/vnWiNI8xyR3</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M3uV6/vnWiNI8xyR3</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MseIFruZeMoxRsDbJ</Uid>
+                  <Uid>MxEFiWvqxXRi8zmII</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Joint_A_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MseIFruZeMoxRsDbJ</Uid>
+                  <Uid>Mh9B/Kmdg98CCGYsF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.035000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M0aUCYwKd5XP+Z+B2</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.020087500 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_A2Joint_B_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M0aUCYwKd5XP+Z+B2</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.004210000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M2C0eyGjAIQVyKu84</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.004210000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_B2Joint_C_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M2C0eyGjAIQVyKu84</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.016000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MKMHnD9azZ235KGGB</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.016000000 0.000000000 0.028500000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_C2Effector_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MKMHnD9azZ235KGGB</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.013000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MpMGtURGkNSIe49mK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.755092743 -0.000000000 0.655617991 -0.613953626 0.350800435 0.707106781 -0.229991076 -0.936450242 0.264886862 </Rotation>
+                  <Translation>0.069635416 0.026106382 0.013889623 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Base2JointBase_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.035000000 0.343100000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MSantyFxnSSpUG4iz</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MSantyFxnSSpUG4iz</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.019300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MukC1GFkddgwdmofe</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MukC1GFkddgwdmofe</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MbRIjUn+HWpGot8WX</Uid>
+                  <Uid>MxEFiWvqxXRi8zmII</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Joint_A_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MbRIjUn+HWpGot8WX</Uid>
+                  <Uid>Mh9B/Kmdg98CCGYsF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.035000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MO5dPIp9v/1bUnWiw</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.020087500 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_A2Joint_B_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MO5dPIp9v/1bUnWiw</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.004210000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M4SeKyAX6zjtCWDBZ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.004210000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_B2Joint_C_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M4SeKyAX6zjtCWDBZ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 1.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.016000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mv3zqPT3heOmx08wb</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.016000000 0.000000000 0.028500000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_C2Effector_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mv3zqPT3heOmx08wb</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.013000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MpMGtURGkNSIe49mK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.755092743 0.000000000 -0.655617991 0.613953626 0.350800435 0.707106781 0.229991076 -0.936450242 0.264886862 </Rotation>
+                  <Translation>-0.069635416 0.026106382 0.013889623 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Base2JointBase_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.343100000 0.035000000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MF35xeElqDPzRs2Rk</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MF35xeElqDPzRs2Rk</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.019300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MO88gZIP8D5K4WTtT</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MO88gZIP8D5K4WTtT</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MQ+naCiXbBxp3teHu</Uid>
+                  <Uid>MxEFiWvqxXRi8zmII</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Joint_A_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MQ+naCiXbBxp3teHu</Uid>
+                  <Uid>Mh9B/Kmdg98CCGYsF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.035000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M4Va78LvDkJORCA9V</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.020087500 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_A2Joint_B_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M4Va78LvDkJORCA9V</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.004210000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MDYxYY1DopsRMgrB1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.004210000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_B2Joint_C_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MDYxYY1DopsRMgrB1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.016000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MXFzFQNZ5p2V6l0QX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.016000000 0.000000000 0.028500000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_C2Effector_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MXFzFQNZ5p2V6l0QX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.013000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MpMGtURGkNSIe49mK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.755092743 -0.000000000 -0.655617991 0.613953626 -0.350800435 0.707106781 -0.229991076 -0.936450242 -0.264886862 </Rotation>
+                  <Translation>-0.069635416 0.026106382 -0.013889623 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Base2JointBase_5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.035000000 -0.343100000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MPbJzvy0FLRFzhZ42</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider_5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MPbJzvy0FLRFzhZ42</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.020300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M5lkv2i2ywupBrVaH</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M5lkv2i2ywupBrVaH</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MMPPmSEvBSkjjGnw5</Uid>
+                  <Uid>M/aiVa94jfSZAiHxR</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Redondante_Housing">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MMPPmSEvBSkjjGnw5</Uid>
+                  <Uid>M68DzNdYO8ojtWunb</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.008000000 0.000000000 0.040000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M/z4QDcpwg92cmgnv</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.008000000 0.000000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Redondante_Housing2Joint_A">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M/z4QDcpwg92cmgnv</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.027000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MACTrmYzjnLns40Ae</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.020087500 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_A2Joint_B_5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MACTrmYzjnLns40Ae</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.004210000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MBbec05n8cuzl/u5z</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.004210000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_B2Joint_C_5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MBbec05n8cuzl/u5z</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.016000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MGpt5P00r7UJDt4Zy</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.016000000 0.000000000 0.028500000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_C2Effector_5">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MGpt5P00r7UJDt4Zy</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.013000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MpMGtURGkNSIe49mK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 0.000000000 0.707106781 -0.707106781 0.000000000 0.707106781 0.707106781 </Rotation>
+                  <Translation>0.000000000 0.026884200 -0.071704200 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Base2JointBase_6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.343100000 -0.035000000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mx9n8erMyurmnKD5O</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider_6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mx9n8erMyurmnKD5O</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.019300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MLvZEomIRITxvvQ2l</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MLvZEomIRITxvvQ2l</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M9CjMFR5ZsTWoqbKx</Uid>
+                  <Uid>MLcf/Po2HT9hwk865</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Redondante_Housing_2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9CjMFR5ZsTWoqbKx</Uid>
+                  <Uid>MKCzpbOibs8kLd/VG</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.008000000 0.000000000 -0.040000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M/z4QDcpwg92cmgnv</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.008000000 0.000000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Base2JointBase_7">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.035000000 0.343100000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MbJQEMcl1S9HFV/QQ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider_7">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MbJQEMcl1S9HFV/QQ</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.020300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MWBj08wxGdpzsDgv2</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_7">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MWBj08wxGdpzsDgv2</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MOQREIQgi7WrmnX9D</Uid>
+                  <Uid>M/aiVa94jfSZAiHxR</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Redondante_Housing_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MOQREIQgi7WrmnX9D</Uid>
+                  <Uid>M68DzNdYO8ojtWunb</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.008000000 0.000000000 0.040000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M/Zxn4gy1bXWnnh/5</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.008000000 0.000000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Redondante_Housing2Joint_A_3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M/Zxn4gy1bXWnnh/5</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.027000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MM7CjXgq5YkkJYAf7</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.020087500 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_A2Joint_B_6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MM7CjXgq5YkkJYAf7</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.004210000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mirxd96zFiXEYyvhu</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.004210000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_B2Joint_C_6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mirxd96zFiXEYyvhu</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.016000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mn6wWBFNF0Q+rJoov</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.016000000 0.000000000 0.028500000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Joint_C2Effector_6">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mn6wWBFNF0Q+rJoov</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 -0.013000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MpMGtURGkNSIe49mK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 0.707106781 0.707106781 0.000000000 -0.707106781 0.707106781 </Rotation>
+                  <Translation>0.000000000 0.026106382 0.070926382 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Base2JointBase_8">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mqld6RJJQY8KkKbjF</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.343100000 0.035000000 0.028657481 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MAUKdE+d/RE7jjSIs</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="JointBase2Slider_8">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MAUKdE+d/RE7jjSIs</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.019300000 0.000000000 -0.071000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M9lC7zaOP4yw+Pn6P</Uid>
+                  <Uid>MANel8YSwSHPlT9ia</Uid>
+                  <Uid>MhGGjslxj1E6oeXB3</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.019325000 0.010000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Slider2Stem_8">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9lC7zaOP4yw+Pn6P</Uid>
+                  <Uid>MpDkDYXe/QJNefJOO</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Mt/18Lo1PylpEj+8l</Uid>
+                  <Uid>MLcf/Po2HT9hwk865</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Stem2Redondante_Housing_4">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Mt/18Lo1PylpEj+8l</Uid>
+                  <Uid>MKCzpbOibs8kLd/VG</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 -1.000000000 -1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>-0.008000000 0.000000000 -0.040000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M/Zxn4gy1bXWnnh/5</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>-0.008000000 0.000000000 0.005000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+      </Joints>
+   </RootAssembly>
+   <Assemblies>
+      <Assembly name="Extension_Bloc" uid="f2306f419b91c97e0ba28ef7">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Weld name="Fastened1">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MhGGjslxj1E6oeXB3</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.000000000 0.020000000 0.000000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MjbSa5sMUsFS8sf33</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 -0.064000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fastened2">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>M4pKZFKUAhYrUcqxq</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.000000000 0.021675000 0.001750000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MjbSa5sMUsFS8sf33</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 0.064000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+         </Joints>
+      </Assembly>
+      <Assembly name="Stem_ASBLY_Little" uid="dfd6a278815e37caaa2ee01a">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Weld name="Fastened1">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>M/aiVa94jfSZAiHxR</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 -0.580000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>M68DzNdYO8ojtWunb</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 -0.000000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+         </Joints>
+      </Assembly>
+      <Assembly name="Stem_ASBLY_Big" uid="17517293b29a4fa8082e9099">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Weld name="Fastened1">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MLcf/Po2HT9hwk865</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 -0.580000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MKCzpbOibs8kLd/VG</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+         </Joints>
+      </Assembly>
+      <Assembly name="Slider" uid="20c19bc2414859b8e1ac8e1c">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Weld name="Fastened1">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MpDkDYXe/QJNefJOO</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.000000000 0.001750000 0.000000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MANel8YSwSHPlT9ia</Uid>
+                     <Uid>M4pKZFKUAhYrUcqxq</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                     <Translation>0.000000000 0.018500000 0.001750000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+         </Joints>
+      </Assembly>
+      <Assembly name="Stem_ASBLY_NR" uid="51dab342e75b4e4c77402211">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Weld name="Fastened1">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MxEFiWvqxXRi8zmII</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 -0.580000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>Mh9B/Kmdg98CCGYsF</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+         </Joints>
+      </Assembly>
+   </Assemblies>
+   <Parts>
+      <Part name="BaseJoint" uid="JFD*:*01d58e79bf94692cc2bcd491">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0920881007</Mass>
+            <CenterOfMass>-0.000000001 0.000076958 -0.028365254 </CenterOfMass>
+            <Inertia>0.000046425 0.000080341 0.000040375 0.000000090 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="BaseJoint.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="NR_Joint_Big" uid="JFD*:*145ce1427bbac92f66e85e98">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0137822967</Mass>
+            <CenterOfMass>-0.000000006 -0.000418480 -0.017260535 </CenterOfMass>
+            <Inertia>0.000001772 0.000003056 0.000001467 -0.000000030 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="NR_Joint_Big.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Effector" uid="JFD*:*213cf1ff0de6e340c17c69bc">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.386186235</Mass>
+            <CenterOfMass>-0.000000000 0.011795839 -0.000000003 </CenterOfMass>
+            <Inertia>0.000533569 0.001191358 0.000724464 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Effector.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.752941176" g="1.000000000" r="0.752941176"/>
+            <Diffuse a="1.000000000" b="0.752941176" g="1.000000000" r="0.752941176"/>
+            <Specular a="1.000000000" b="0.752941176" g="1.000000000" r="0.752941176"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Slider" uid="JFD*:*5231ec5207d743843fcb52b2">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>1.03494659</Mass>
+            <CenterOfMass>-0.000000000 0.002251733 0.125684627 </CenterOfMass>
+            <Inertia>0.005832389 0.005832227 0.000118992 0.000015359 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Slider.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Stem" uid="JFH*:*5231ec5207d743843fcb52b2">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.520005332</Mass>
+            <CenterOfMass>-0.000000000 -0.000000000 -0.290064692 </CenterOfMass>
+            <Inertia>0.014331482 0.014331461 0.000009395 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Stem.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Stator_Fixation_SSCP" uid="JFL*:*5231ec5207d743843fcb52b2">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.133925927</Mass>
+            <CenterOfMass>0.000231470 0.036214852 -0.002884195 </CenterOfMass>
+            <Inertia>0.000066560 0.000045236 0.000064259 0.000002041 0.000000438 -0.000000226 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Stator_Fixation_SSCP.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.752941176" r="0.752941176"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.752941176" r="0.752941176"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.752941176" r="0.752941176"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Base_Joint_Fixation" uid="JFP*:*5231ec5207d743843fcb52b2">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.291748847</Mass>
+            <CenterOfMass>-0.000000000 0.017399962 -0.000000001 </CenterOfMass>
+            <Inertia>0.000075833 0.000077343 0.000074871 -0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Base_Joint_Fixation.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.752941176" r="0.752941176"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.752941176" r="0.752941176"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.752941176" r="0.752941176"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Allu_Extru_Square" uid="JFT*:*5231ec5207d743843fcb52b2">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.107241933</Mass>
+            <CenterOfMass>0.000468503 -0.000033284 -0.000000000 </CenterOfMass>
+            <Inertia>0.000186107 0.000183279 0.000046763 0.000000000 0.000000000 -0.000000064 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Allu_Extru_Square.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.937254902" g="0.823529412" r="0.796078431"/>
+            <Diffuse a="1.000000000" b="0.937254902" g="0.823529412" r="0.796078431"/>
+            <Specular a="1.000000000" b="0.937254902" g="0.823529412" r="0.796078431"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Redondante_Housing" uid="JFD*:*65a78b1d1308a9535d7a8f0c">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0099467071</Mass>
+            <CenterOfMass>0.000000047 0.000000003 0.014750330 </CenterOfMass>
+            <Inertia>0.000000818 0.000000823 0.000000587 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Redondante_Housing.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.501960784" g="1.000000000" r="1.000000000"/>
+            <Diffuse a="1.000000000" b="0.501960784" g="1.000000000" r="1.000000000"/>
+            <Specular a="1.000000000" b="0.501960784" g="1.000000000" r="1.000000000"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Swivel" uid="JFD*:*9417bee971daeeb856c192b8">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0199890633</Mass>
+            <CenterOfMass>0.000000000 -0.000000001 -0.015425700 </CenterOfMass>
+            <Inertia>0.000002513 0.000002513 0.000001083 -0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Swivel.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Base" uid="JHD*:*ac29ca7227af0ee90520abdf">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0</Mass>
+            <CenterOfMass>0.000000000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Base.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="NR_Joint_Little" uid="JFD*:*b0123572551d94188a5fa470">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0141705157</Mass>
+            <CenterOfMass>-0.000000003 0.000112925 0.017953706 </CenterOfMass>
+            <Inertia>0.000001769 0.000002378 0.000000845 -0.000000011 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="NR_Joint_Little.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Specular a="1.000000000" b="1.000000000" g="0.501960784" r="0.501960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Joint_A" uid="JFD*:*b0fe54c65e2c730cd733d835">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0134843046</Mass>
+            <CenterOfMass>-0.000035735 -0.000000000 -0.003431239 </CenterOfMass>
+            <Inertia>0.000001635 0.000001909 0.000000421 0.000000000 0.000000002 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Joint_A.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.501960784" g="1.000000000" r="0.501960784"/>
+            <Diffuse a="1.000000000" b="0.501960784" g="1.000000000" r="0.501960784"/>
+            <Specular a="1.000000000" b="0.501960784" g="1.000000000" r="0.501960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Joint_B" uid="JFH*:*b0fe54c65e2c730cd733d835">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.00514750582</Mass>
+            <CenterOfMass>0.000000002 0.000399163 0.000000000 </CenterOfMass>
+            <Inertia>0.000000080 0.000000436 0.000000445 0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Joint_B.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Joint_C" uid="JFL*:*b0fe54c65e2c730cd733d835">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0171553631</Mass>
+            <CenterOfMass>0.000000002 -0.000029776 0.005665392 </CenterOfMass>
+            <Inertia>0.000002630 0.000005135 0.000002899 0.000000005 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Joint_C.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Diffuse a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Specular a="1.000000000" b="1.000000000" g="1.000000000" r="0.501960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>
