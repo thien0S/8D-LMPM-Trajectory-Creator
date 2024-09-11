@@ -1,13 +1,13 @@
 
 # 8D LMPM Trajectory Creator
 
-8D-LMPM-Trajectory-Creator est une application *Matlab* qui permet de créer des trajectoires pour un robot parallèle à 8 degrées de libertés.
+8D-LMPM-Trajectory-Creator est une application *Matlab* qui permet de créer des trajectoires pour un robot parallèle à 8 degrés de libertés.
 
 
 
 ## Utilisation
 
-Pour utiliser l'application lancer le fichier (le système qui execute l'application doit détenir *Matlab* ainsi que la librairie *Simscape*):
+Pour utiliser l'application, lancer le fichier (le système qui exécute l'application doit détenir *Matlab* ainsi que la librairie *Simscape*):
 
 ```bash
 LMPM_8D_Controller.mlapp
@@ -20,7 +20,7 @@ LMPM_8D_Controller.mlapp
 ```bash
 GestionRedondance.m
 ```
-Ce script permet d'automatiquement grâce à un alogrithme d'évitement de singularité de gérer les pattes redondantes du robot
+Ce script permet d'automatiquement gérer les pattes redondantes du robot grâce à un algorithme d'évitement de singularités
 
 ---
 
@@ -38,10 +38,7 @@ exportTraj.m
 Ce script permet d'exporter la trajectoire et de la sauvegarder dans la base de donnée *trajVar.mat* qui se trouve dans le dossier /pos_8mot
 
 
-
-
-
 ### Auteur
 
-Ce projet à été réalisé par **Martin Leray** avec l'aide de Jonathan Lacombe
+Ce projet a été réalisé par **Martin Leray** avec l'aide de Jonathan Lacombe
 
